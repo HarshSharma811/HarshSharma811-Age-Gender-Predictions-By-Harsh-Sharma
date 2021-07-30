@@ -7,13 +7,16 @@ Requisites
 
 2. openCV (Computer Vision Library)
 
-Directories
-1.image
-containing test images.
-
-2. modelNweight
+2. modelNweight 
 Containing model files(prototxt file), weight files(caffemodel file) and mean file(binaryproto file).
-You can also download those files and see details from here.
+You can also download those files and see details from below mentioned.
+1) age_deploy.prototxt  
+2) age_net.caffemodel
+3) gender_deploy.prototxt
+4) gender_net.caffemodel
+5) opencv_face_detector.pbtxt
+6) opencv_face_detector_uint8.pb
+Note:- In these out of 6 files 2 files are not able to uploaded due to large size names are age_net.caffemodel and gender_net.caffemodel.
 
 3. README
 Containing implementation papers of age and gender prediction.
